@@ -1,0 +1,34 @@
+.mask {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.mask__media,
+.mask__picture,
+.mask__picture img {
+  width: 100%;
+  height: 100%;
+}
+
+.mask__picture img {
+  object-fit: cover;
+}
+
+.mask__cover {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: var(--cover, var(--paper));
+  pointer-events: none;
+}
+
+.no-js .mask__cover {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mask__cover {
+    display: none;
+  }
+}

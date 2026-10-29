@@ -1,0 +1,84 @@
+.philo {
+  --cover: var(--nude);
+  position: relative;
+  background: var(--nude);
+  padding-block: var(--section);
+  overflow: clip;
+}
+
+.philo__grid {
+  display: grid;
+  gap: clamp(3.5rem, 8vw, 5rem);
+}
+
+.philo__indent {
+  padding-left: 1.6em;
+}
+
+.philo__text {
+  display: grid;
+  gap: 1.1rem;
+  margin-top: 2rem;
+}
+
+.philo .body {
+  color: #5a3f32;
+}
+
+.philo__film {
+  justify-self: center;
+  width: min(100%, 24rem);
+}
+
+.philo__frame {
+  aspect-ratio: 9 / 16;
+  overflow: hidden;
+  transform-origin: center top;
+}
+
+.philo__caption {
+  margin-top: 1.25rem;
+  max-width: 30ch;
+  font-size: 0.64rem;
+  color: #5a3f32;
+}
+
+.philo__label {
+  margin-bottom: 1.5rem;
+  color: var(--terracota);
+}
+
+.philo__principles li {
+  padding-block: 1.1rem;
+  border-top: 1px solid rgb(59 31 21 / 0.22);
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1.6rem, 1.3rem + 1vw, 2.2rem);
+  line-height: 1.15;
+}
+
+@media (min-width: 1024px) {
+  .philo__grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: clamp(1rem, 2vw, 2rem);
+    align-items: start;
+  }
+
+  .philo__copy {
+    grid-column: 1 / 5;
+    padding-top: 2rem;
+  }
+
+  .philo__film {
+    grid-column: 5 / 9;
+    width: 100%;
+    max-width: 26rem;
+  }
+
+  .philo__principles {
+    grid-column: 9 / 13;
+    align-self: center;
+    padding-top: 6rem;
+  }
+}

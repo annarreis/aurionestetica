@@ -1,0 +1,56 @@
+:root {
+  /* Paleta Aurion */
+  --chocolate: #3b1f15;
+  --terracota: #71351f;
+  --caramelo: #ad7957;
+  --taupe: #a58c7c;
+  --nude: #dcc3ad;
+  --off-white: #f8f5f0;
+
+  /* Derivados funcionais */
+  --paper: var(--off-white);
+  --paper-deep: #f0e8de; /* entre off-white e nude, para alternar seções claras */
+  --ink: var(--chocolate);
+  --ink-soft: #694c3e; /* texto de apoio — 7:1 sobre off-white */
+  --ink-faint: #8a6e5f; /* legendas — 4.6:1 sobre off-white */
+  --line: rgb(59 31 21 / 0.16);
+  --line-strong: rgb(59 31 21 / 0.32);
+  --on-dark: var(--off-white);
+  --on-dark-soft: rgb(248 245 240 / 0.72);
+  --line-dark: rgb(220 195 173 / 0.22);
+
+  /* Tipografia */
+  --serif: 'Newsreader Variable', 'Newsreader', Georgia, 'Times New Roman', serif;
+  --sans: 'Jost Variable', 'Jost', 'Futura', 'Avenir Next', system-ui, sans-serif;
+
+  --fs-display: clamp(3.1rem, 1.6rem + 6.6vw, 8.5rem);
+  --fs-h2: clamp(2.4rem, 1.5rem + 3.4vw, 4.9rem);
+  --fs-h3: clamp(1.65rem, 1.3rem + 1vw, 2.35rem);
+  --fs-lead: clamp(1.2rem, 1.05rem + 0.55vw, 1.55rem);
+  --fs-body: clamp(1rem, 0.96rem + 0.15vw, 1.075rem);
+  --fs-small: 0.875rem;
+  --fs-caps: 0.72rem;
+
+  --tracking-caps: 0.24em;
+
+  /* Espaço e grid */
+  --gutter: clamp(1.25rem, 0.6rem + 3.2vw, 4.5rem);
+  --max: 1520px;
+  --section: clamp(6rem, 4rem + 9vw, 12.5rem);
+  --header-h: 76px;
+
+  /* Camadas */
+  --z-base: 1;
+  --z-raised: 10;
+  --z-float: 40;
+  --z-header: 50;
+  --z-menu: 60;
+
+  --radius: 2px;
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --header-h: 92px;
+  }
+}

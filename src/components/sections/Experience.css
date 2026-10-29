@@ -1,0 +1,127 @@
+.exp {
+  --cover: var(--paper);
+  padding-block: var(--section);
+  overflow: clip;
+}
+
+.exp__head {
+  display: grid;
+  gap: 2rem;
+  margin-bottom: clamp(4rem, 9vw, 7rem);
+}
+
+.exp__indent {
+  padding-left: 1.2em;
+}
+
+.exp__intro {
+  max-width: 34ch;
+  color: var(--ink-soft);
+}
+
+.exp__moments {
+  display: grid;
+  gap: 4rem;
+}
+
+.moment {
+  display: grid;
+  gap: 1.5rem;
+  width: 82%;
+}
+
+.moment:nth-child(even) {
+  justify-self: end;
+}
+
+.moment__image {
+  aspect-ratio: 3 / 4;
+}
+
+.moment--3 .moment__image {
+  aspect-ratio: 1 / 1;
+}
+
+.moment__body {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.moment__n {
+  color: var(--caramelo);
+}
+
+.exp__quote {
+  margin-top: clamp(6rem, 14vw, 12rem);
+  display: grid;
+  gap: 1.75rem;
+  max-width: 42rem;
+}
+
+.exp__quote p {
+  font-family: var(--serif);
+  font-weight: 350;
+  font-size: var(--fs-h2);
+  line-height: 1.02;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+.exp__quote p::before {
+  content: '“';
+  display: block;
+  height: 0.5em;
+  color: var(--caramelo);
+  font-size: 1.4em;
+  line-height: 1;
+}
+
+.exp__quote footer {
+  color: var(--ink-faint);
+}
+
+@media (min-width: 640px) {
+  .exp__moments {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: clamp(1.5rem, 4vw, 3rem);
+    row-gap: 5rem;
+  }
+
+  .moment {
+    width: 100%;
+  }
+
+  .moment:nth-child(even) {
+    margin-top: 6rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .exp__head {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: clamp(1rem, 2vw, 2rem);
+    align-items: end;
+  }
+
+  .exp__head .h2 {
+    grid-column: 1 / 8;
+  }
+
+  .exp__intro {
+    grid-column: 8 / 12;
+  }
+
+  .exp__moments {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    column-gap: clamp(1.25rem, 2.5vw, 2.5rem);
+  }
+
+  .moment--1 { margin-top: 0; }
+  .moment.moment--2 { margin-top: 9rem; }
+  .moment--3 { margin-top: 3rem; }
+  .moment.moment--4 { margin-top: 12rem; }
+
+  .exp__quote {
+    margin-left: calc(100% / 12 * 5);
+  }
+}

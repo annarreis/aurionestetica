@@ -1,0 +1,25 @@
+{
+  "name": "aurion",
+  "version": "1.0.0",
+  "scripts": {
+    "media": "node scripts/process-media.mjs",
+    "dev": "vite",
+    "build": "vite build && vite build --ssr src/entry-server.jsx --outDir dist-server && node scripts/prerender.mjs",
+    "preview": "vite preview --port 4173",
+    "og": "node scripts/og-image.mjs"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "framer-motion": "^14.7.1",
+    "lucide-react": "^1.64.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "sharp": "^0.35.5",
+    "vite": "^8.3.5"
+  },
+  "type": "module",
+  "private": true
+}

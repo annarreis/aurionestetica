@@ -1,0 +1,16 @@
+.lines {
+  display: block;
+}
+
+.lines__row {
+  display: block;
+  overflow: hidden;
+  /* espaço para acentos e descendentes não serem cortados pela máscara */
+  padding-block: 0.16em 0.12em;
+  margin-block: -0.16em -0.12em;
+}
+
+.lines__inner {
+  display: inline-block;
+  will-change: auto;
+}

@@ -1,0 +1,435 @@
+{
+  "rosto": {
+    "width": 720,
+    "height": 1050,
+    "avif": [
+      [
+        "/media/rosto-480.avif",
+        480
+      ],
+      [
+        "/media/rosto-720.avif",
+        720
+      ]
+    ],
+    "webp": [
+      [
+        "/media/rosto-480.webp",
+        480
+      ],
+      [
+        "/media/rosto-720.webp",
+        720
+      ]
+    ],
+    "fallback": "/media/rosto-720.webp",
+    "color": "rgb(184 152 136)"
+  },
+  "corpo": {
+    "width": 720,
+    "height": 1280,
+    "avif": [
+      [
+        "/media/corpo-480.avif",
+        480
+      ],
+      [
+        "/media/corpo-720.avif",
+        720
+      ]
+    ],
+    "webp": [
+      [
+        "/media/corpo-480.webp",
+        480
+      ],
+      [
+        "/media/corpo-720.webp",
+        720
+      ]
+    ],
+    "fallback": "/media/corpo-720.webp",
+    "color": "rgb(56 24 8)"
+  },
+  "firmeza": {
+    "width": 720,
+    "height": 1280,
+    "avif": [
+      [
+        "/media/firmeza-480.avif",
+        480
+      ],
+      [
+        "/media/firmeza-720.avif",
+        720
+      ]
+    ],
+    "webp": [
+      [
+        "/media/firmeza-480.webp",
+        480
+      ],
+      [
+        "/media/firmeza-720.webp",
+        720
+      ]
+    ],
+    "fallback": "/media/firmeza-720.webp",
+    "color": "rgb(136 56 24)"
+  },
+  "textura": {
+    "width": 720,
+    "height": 1280,
+    "avif": [
+      [
+        "/media/textura-480.avif",
+        480
+      ],
+      [
+        "/media/textura-720.avif",
+        720
+      ]
+    ],
+    "webp": [
+      [
+        "/media/textura-480.webp",
+        480
+      ],
+      [
+        "/media/textura-720.webp",
+        720
+      ]
+    ],
+    "fallback": "/media/textura-720.webp",
+    "color": "rgb(8 8 8)"
+  },
+  "luz": {
+    "width": 720,
+    "height": 691,
+    "avif": [
+      [
+        "/media/luz-480.avif",
+        480
+      ],
+      [
+        "/media/luz-720.avif",
+        720
+      ]
+    ],
+    "webp": [
+      [
+        "/media/luz-480.webp",
+        480
+      ],
+      [
+        "/media/luz-720.webp",
+        720
+      ]
+    ],
+    "fallback": "/media/luz-720.webp",
+    "color": "rgb(136 88 40)"
+  },
+  "reconhecer": {
+    "width": 720,
+    "height": 1280,
+    "avif": [
+      [
+        "/media/reconhecer-480.avif",
+        480
+      ],
+      [
+        "/media/reconhecer-720.avif",
+        720
+      ]
+    ],
+    "webp": [
+      [
+        "/media/reconhecer-480.webp",
+        480
+      ],
+      [
+        "/media/reconhecer-720.webp",
+        720
+      ]
+    ],
+    "fallback": "/media/reconhecer-720.webp",
+    "color": "rgb(88 88 72)"
+  },
+  "labios": {
+    "width": 1350,
+    "height": 1687,
+    "avif": [
+      [
+        "/media/labios-480.avif",
+        480
+      ],
+      [
+        "/media/labios-800.avif",
+        800
+      ],
+      [
+        "/media/labios-1200.avif",
+        1200
+      ]
+    ],
+    "webp": [
+      [
+        "/media/labios-480.webp",
+        480
+      ],
+      [
+        "/media/labios-800.webp",
+        800
+      ],
+      [
+        "/media/labios-1200.webp",
+        1200
+      ]
+    ],
+    "fallback": "/media/labios-1200.webp",
+    "color": "rgb(216 184 152)"
+  },
+  "labiosAntes": {
+    "width": 1350,
+    "height": 709,
+    "avif": [
+      [
+        "/media/labiosAntes-480.avif",
+        480
+      ],
+      [
+        "/media/labiosAntes-800.avif",
+        800
+      ],
+      [
+        "/media/labiosAntes-1200.avif",
+        1200
+      ]
+    ],
+    "webp": [
+      [
+        "/media/labiosAntes-480.webp",
+        480
+      ],
+      [
+        "/media/labiosAntes-800.webp",
+        800
+      ],
+      [
+        "/media/labiosAntes-1200.webp",
+        1200
+      ]
+    ],
+    "fallback": "/media/labiosAntes-1200.webp",
+    "color": "rgb(216 184 152)"
+  },
+  "labiosDepois": {
+    "width": 1350,
+    "height": 709,
+    "avif": [
+      [
+        "/media/labiosDepois-480.avif",
+        480
+      ],
+      [
+        "/media/labiosDepois-800.avif",
+        800
+      ],
+      [
+        "/media/labiosDepois-1200.avif",
+        1200
+      ]
+    ],
+    "webp": [
+      [
+        "/media/labiosDepois-480.webp",
+        480
+      ],
+      [
+        "/media/labiosDepois-800.webp",
+        800
+      ],
+      [
+        "/media/labiosDepois-1200.webp",
+        1200
+      ]
+    ],
+    "fallback": "/media/labiosDepois-1200.webp",
+    "color": "rgb(216 168 136)"
+  },
+  "mascara": {
+    "width": 1599,
+    "height": 2000,
+    "avif": [
+      [
+        "/media/mascara-480.avif",
+        480
+      ],
+      [
+        "/media/mascara-800.avif",
+        800
+      ],
+      [
+        "/media/mascara-1200.avif",
+        1200
+      ]
+    ],
+    "webp": [
+      [
+        "/media/mascara-480.webp",
+        480
+      ],
+      [
+        "/media/mascara-800.webp",
+        800
+      ],
+      [
+        "/media/mascara-1200.webp",
+        1200
+      ]
+    ],
+    "fallback": "/media/mascara-1200.webp",
+    "color": "rgb(8 8 8)"
+  },
+  "cetim": {
+    "width": 508,
+    "height": 432,
+    "avif": [
+      [
+        "/media/cetim-508.avif",
+        508
+      ]
+    ],
+    "webp": [
+      [
+        "/media/cetim-508.webp",
+        508
+      ]
+    ],
+    "fallback": "/media/cetim-508.webp",
+    "color": "rgb(152 88 56)"
+  },
+  "cetimLargo": {
+    "width": 588,
+    "height": 280,
+    "avif": [
+      [
+        "/media/cetimLargo-588.avif",
+        588
+      ]
+    ],
+    "webp": [
+      [
+        "/media/cetimLargo-588.webp",
+        588
+      ]
+    ],
+    "fallback": "/media/cetimLargo-588.webp",
+    "color": "rgb(120 72 40)"
+  },
+  "gota": {
+    "width": 478,
+    "height": 432,
+    "avif": [
+      [
+        "/media/gota-478.avif",
+        478
+      ]
+    ],
+    "webp": [
+      [
+        "/media/gota-478.webp",
+        478
+      ]
+    ],
+    "fallback": "/media/gota-478.webp",
+    "color": "rgb(136 88 56)"
+  },
+  "linho": {
+    "width": 474,
+    "height": 432,
+    "avif": [
+      [
+        "/media/linho-474.avif",
+        474
+      ]
+    ],
+    "webp": [
+      [
+        "/media/linho-474.webp",
+        474
+      ]
+    ],
+    "fallback": "/media/linho-474.webp",
+    "color": "rgb(200 168 152)"
+  },
+  "pescoco": {
+    "width": 602,
+    "height": 432,
+    "avif": [
+      [
+        "/media/pescoco-602.avif",
+        602
+      ]
+    ],
+    "webp": [
+      [
+        "/media/pescoco-602.webp",
+        602
+      ]
+    ],
+    "fallback": "/media/pescoco-602.webp",
+    "color": "rgb(184 120 88)"
+  },
+  "folha": {
+    "width": 340,
+    "height": 614,
+    "avif": [
+      [
+        "/media/folha-340.avif",
+        340
+      ]
+    ],
+    "webp": [
+      [
+        "/media/folha-340.webp",
+        340
+      ]
+    ],
+    "fallback": "/media/folha-340.webp",
+    "color": "rgb(232 200 168)"
+  },
+  "retrato": {
+    "width": 580,
+    "height": 858,
+    "avif": [
+      [
+        "/media/retrato-580.avif",
+        580
+      ]
+    ],
+    "webp": [
+      [
+        "/media/retrato-580.webp",
+        580
+      ]
+    ],
+    "fallback": "/media/retrato-580.webp",
+    "color": "rgb(216 152 120)"
+  },
+  "video:reconhecer": {
+    "src": "/media/reconhecer.mp4"
+  },
+  "video:firmeza": {
+    "src": "/media/firmeza.mp4"
+  },
+  "video:textura": {
+    "src": "/media/textura.mp4"
+  },
+  "video:luz": {
+    "src": "/media/luz.mp4"
+  },
+  "video:corpo": {
+    "src": "/media/corpo.mp4"
+  }
+}
