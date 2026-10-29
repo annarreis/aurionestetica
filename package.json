@@ -17,9 +17,17 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^6.1.2",
+    "gh-pages": "^6.3.0",
     "sharp": "^0.35.5",
     "vite": "^8.3.5"
   },
   "type": "module",
   "private": true
+
+  "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "deploy": "gh-pages -d dist"
+}
 }
